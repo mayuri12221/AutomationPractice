@@ -1,0 +1,461 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9847673223,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Home page",
+            "match": {
+              "location": "Definitions.natigate_to_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Successful registration",
+        "description": "",
+        "id": "test-various-functionalities-of-an-application;successful-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3217847294,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to sign in page",
+            "match": {
+              "location": "Definitions.user_navigate_to_signin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 423358780,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks enters valid email",
+            "match": {
+              "location": "Definitions.user_enter_valid_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102633433,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on create an account",
+            "match": {
+              "location": "Definitions.user_click_on_create_an_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7128248742,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user give all required registration details",
+            "match": {
+              "location": "Definitions.user_give_all_required_registration_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1824302240,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on register",
+            "match": {
+              "location": "Definitions.user_clicks_on_register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 799660842,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should be able to register successfully",
+            "match": {
+              "location": "Definitions.user_should_be_able_to_register_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Registration"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9367836803,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Home page",
+            "match": {
+              "location": "Definitions.natigate_to_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Error displayed for invalid email address",
+        "description": "",
+        "id": "test-various-functionalities-of-an-application;error-displayed-for-invalid-email-address",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1858310962,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user navigates to sign in page",
+            "match": {
+              "location": "Definitions.user_navigate_to_signin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 236540887,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enters invalid email",
+            "match": {
+              "location": "Definitions.user_enters_invalid_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97006653,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click on create an account",
+            "match": {
+              "location": "Definitions.user_click_on_create_an_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 773189657,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "error message should be displayed",
+            "match": {
+              "location": "Definitions.error_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@InvalidEmail"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9641489466,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Home page",
+            "match": {
+              "location": "Definitions.natigate_to_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Validate Summer Dresses Megamenu",
+        "description": "",
+        "id": "test-various-functionalities-of-an-application;validate-summer-dresses-megamenu",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58115268,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks on Dresses",
+            "match": {
+              "location": "Definitions.user_clicks_on_Dresses()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3059878911,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user clicks on Summer Dresses",
+            "match": {
+              "location": "Definitions.user_clicks_on_Summer_Dresses()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 761814072,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user navigates Summer Dresses page",
+            "match": {
+              "location": "Definitions.user_navigates_Summer_Dresses_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@SummerDressesMegamenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9294108188,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Home page",
+            "match": {
+              "location": "Definitions.natigate_to_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Sort summer dresses by price",
+        "description": "",
+        "id": "test-various-functionalities-of-an-application;sort-summer-dresses-by-price",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54374155,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user clicks on Dresses",
+            "match": {
+              "location": "Definitions.user_clicks_on_Dresses()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3107225862,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user clicks on Summer Dresses",
+            "match": {
+              "location": "Definitions.user_clicks_on_Summer_Dresses()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5456044626,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user clicks on Sort by price",
+            "match": {
+              "location": "Definitions.user_clicks_on_Sort_by_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 753065421,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "items should be arranged accordingly",
+            "match": {
+              "location": "Definitions.items_should_be_arranged_accordingly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 29,
+            "name": "@Sorting"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13867124047,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Home page",
+            "match": {
+              "location": "Definitions.natigate_to_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "Validate product details in the cart summary",
+        "description": "",
+        "id": "test-various-functionalities-of-an-application;validate-product-details-in-the-cart-summary",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46927281,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user clicks on Dresses",
+            "match": {
+              "location": "Definitions.user_clicks_on_Dresses()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2526147309,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user select a dress",
+            "match": {
+              "location": "Definitions.user_select_a_dress()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119958534,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user change the dress color to blue",
+            "match": {
+              "location": "Definitions.user_change_the_dress_color_to_blue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2387305874,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user add the product to cart",
+            "match": {
+              "location": "Definitions.user_add_the_product_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1059214623,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user should see proper Details of the product in the cart summary",
+            "match": {
+              "location": "Definitions.user_should_see_proper_Details_of_the_product_in_the_cart_summary()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@CartSummary"
+          }
+        ]
+      }
+    ],
+    "name": "Test various functionalities of an application",
+    "description": "",
+    "id": "test-various-functionalities-of-an-application",
+    "keyword": "Feature",
+    "uri": "Scenario.feature"
+  }
+]

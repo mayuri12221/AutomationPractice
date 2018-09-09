@@ -1,0 +1,53 @@
+Feature: Test various functionalities of an application
+
+  Background:                  [90m# Scenario.feature:4[0m
+    [32mGiven [0m[32muser is on Home page[0m [90m# Definitions.natigate_to_home_page()[0m
+
+  @Registration
+  Scenario: Successful registration                   [90m# Scenario.feature:8[0m
+    [32mWhen [0m[32muser navigates to sign in page[0m               [90m# Definitions.user_navigate_to_signin()[0m
+    [32mAnd [0m[32muser clicks enters valid email[0m                [90m# Definitions.user_enter_valid_email()[0m
+    [32mAnd [0m[32muser click on create an account[0m               [90m# Definitions.user_click_on_create_an_account()[0m
+    [32mAnd [0m[32muser give all required registration details[0m   [90m# Definitions.user_give_all_required_registration_details()[0m
+    [32mAnd [0m[32muser clicks on register[0m                       [90m# Definitions.user_clicks_on_register()[0m
+    [32mThen [0m[32muser should be able to register successfully[0m [90m# Definitions.user_should_be_able_to_register_successfully()[0m
+
+  Background:                  [90m# Scenario.feature:4[0m
+    [32mGiven [0m[32muser is on Home page[0m [90m# Definitions.natigate_to_home_page()[0m
+
+  @InvalidEmail
+  Scenario: Error displayed for invalid email address [90m# Scenario.feature:17[0m
+    [32mWhen [0m[32muser navigates to sign in page[0m               [90m# Definitions.user_navigate_to_signin()[0m
+    [32mAnd [0m[32muser enters invalid email[0m                     [90m# Definitions.user_enters_invalid_email()[0m
+    [32mAnd [0m[32muser click on create an account[0m               [90m# Definitions.user_click_on_create_an_account()[0m
+    [32mThen [0m[32merror message should be displayed[0m            [90m# Definitions.error_message_should_be_displayed()[0m
+
+  Background:                  [90m# Scenario.feature:4[0m
+    [32mGiven [0m[32muser is on Home page[0m [90m# Definitions.natigate_to_home_page()[0m
+
+  @SummerDressesMegamenu
+  Scenario: Validate Summer Dresses Megamenu [90m# Scenario.feature:24[0m
+    [32mWhen [0m[32muser clicks on Dresses[0m              [90m# Definitions.user_clicks_on_Dresses()[0m
+    [32mAnd [0m[32muser clicks on Summer Dresses[0m        [90m# Definitions.user_clicks_on_Summer_Dresses()[0m
+    [32mThen [0m[32muser navigates Summer Dresses page[0m  [90m# Definitions.user_navigates_Summer_Dresses_page()[0m
+
+  Background:                  [90m# Scenario.feature:4[0m
+    [32mGiven [0m[32muser is on Home page[0m [90m# Definitions.natigate_to_home_page()[0m
+
+  @Sorting
+  Scenario: Sort summer dresses by price      [90m# Scenario.feature:30[0m
+    [32mWhen [0m[32muser clicks on Dresses[0m               [90m# Definitions.user_clicks_on_Dresses()[0m
+    [32mAnd [0m[32muser clicks on Summer Dresses[0m         [90m# Definitions.user_clicks_on_Summer_Dresses()[0m
+    [32mAnd [0m[32muser clicks on Sort by price[0m          [90m# Definitions.user_clicks_on_Sort_by_price()[0m
+    [32mThen [0m[32mitems should be arranged accordingly[0m [90m# Definitions.items_should_be_arranged_accordingly()[0m
+
+  Background:                  [90m# Scenario.feature:4[0m
+    [32mGiven [0m[32muser is on Home page[0m [90m# Definitions.natigate_to_home_page()[0m
+
+  @CartSummary
+  Scenario: Validate product details in the cart summary                   [90m# Scenario.feature:37[0m
+    [32mWhen [0m[32muser clicks on Dresses[0m                                            [90m# Definitions.user_clicks_on_Dresses()[0m
+    [32mWhen [0m[32muser select a dress[0m                                               [90m# Definitions.user_select_a_dress()[0m
+    [32mAnd [0m[32muser change the dress color to blue[0m                                [90m# Definitions.user_change_the_dress_color_to_blue()[0m
+    [32mAnd [0m[32muser add the product to cart[0m                                       [90m# Definitions.user_add_the_product_to_cart()[0m
+    [32mThen [0m[32muser should see proper Details of the product in the cart summary[0m [90m# Definitions.user_should_see_proper_Details_of_the_product_in_the_cart_summary()[0m

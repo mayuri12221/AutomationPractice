@@ -1,0 +1,362 @@
+[
+  {
+    "source": "^user is on Home page$",
+    "steps": [
+      {
+        "name": "user is on Home page",
+        "aggregatedDurations": {
+          "average": 10.403646345,
+          "median": 9.641489466
+        },
+        "durations": [
+          {
+            "duration": 9.847673223,
+            "location": "Scenario.feature:5"
+          },
+          {
+            "duration": 9.367836803,
+            "location": "Scenario.feature:5"
+          },
+          {
+            "duration": 9.641489466,
+            "location": "Scenario.feature:5"
+          },
+          {
+            "duration": 9.294108188,
+            "location": "Scenario.feature:5"
+          },
+          {
+            "duration": 13.867124047,
+            "location": "Scenario.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user give all required registration details$",
+    "steps": [
+      {
+        "name": "user give all required registration details",
+        "aggregatedDurations": {
+          "average": 7.128248742,
+          "median": 7.128248742
+        },
+        "durations": [
+          {
+            "duration": 7.128248742,
+            "location": "Scenario.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user add the product to cart$",
+    "steps": [
+      {
+        "name": "user add the product to cart",
+        "aggregatedDurations": {
+          "average": 2.387305874,
+          "median": 2.387305874
+        },
+        "durations": [
+          {
+            "duration": 2.387305874,
+            "location": "Scenario.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should be able to register successfully$",
+    "steps": [
+      {
+        "name": "user should be able to register successfully",
+        "aggregatedDurations": {
+          "average": 0.799660842,
+          "median": 0.799660842
+        },
+        "durations": [
+          {
+            "duration": 0.799660842,
+            "location": "Scenario.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user navigates Summer Dresses page$",
+    "steps": [
+      {
+        "name": "user navigates Summer Dresses page",
+        "aggregatedDurations": {
+          "average": 0.761814072,
+          "median": 0.761814072
+        },
+        "durations": [
+          {
+            "duration": 0.761814072,
+            "location": "Scenario.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user change the dress color to blue$",
+    "steps": [
+      {
+        "name": "user change the dress color to blue",
+        "aggregatedDurations": {
+          "average": 0.119958534,
+          "median": 0.119958534
+        },
+        "durations": [
+          {
+            "duration": 0.119958534,
+            "location": "Scenario.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user click on create an account$",
+    "steps": [
+      {
+        "name": "user click on create an account",
+        "aggregatedDurations": {
+          "average": 0.099820043,
+          "median": 0.099820043
+        },
+        "durations": [
+          {
+            "duration": 0.102633433,
+            "location": "Scenario.feature:11"
+          },
+          {
+            "duration": 0.097006653,
+            "location": "Scenario.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on register$",
+    "steps": [
+      {
+        "name": "user clicks on register",
+        "aggregatedDurations": {
+          "average": 1.82430224,
+          "median": 1.82430224
+        },
+        "durations": [
+          {
+            "duration": 1.82430224,
+            "location": "Scenario.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user navigates to sign in page$",
+    "steps": [
+      {
+        "name": "user navigates to sign in page",
+        "aggregatedDurations": {
+          "average": 2.538079128,
+          "median": 2.538079128
+        },
+        "durations": [
+          {
+            "duration": 3.217847294,
+            "location": "Scenario.feature:9"
+          },
+          {
+            "duration": 1.858310962,
+            "location": "Scenario.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters invalid email$",
+    "steps": [
+      {
+        "name": "user enters invalid email",
+        "aggregatedDurations": {
+          "average": 0.236540887,
+          "median": 0.236540887
+        },
+        "durations": [
+          {
+            "duration": 0.236540887,
+            "location": "Scenario.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks enters valid email$",
+    "steps": [
+      {
+        "name": "user clicks enters valid email",
+        "aggregatedDurations": {
+          "average": 0.42335878,
+          "median": 0.42335878
+        },
+        "durations": [
+          {
+            "duration": 0.42335878,
+            "location": "Scenario.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on Dresses$",
+    "steps": [
+      {
+        "name": "user clicks on Dresses",
+        "aggregatedDurations": {
+          "average": 0.053138901,
+          "median": 0.054374155
+        },
+        "durations": [
+          {
+            "duration": 0.058115268,
+            "location": "Scenario.feature:25"
+          },
+          {
+            "duration": 0.054374155,
+            "location": "Scenario.feature:31"
+          },
+          {
+            "duration": 0.046927281,
+            "location": "Scenario.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should see proper Details of the product in the cart summary$",
+    "steps": [
+      {
+        "name": "user should see proper Details of the product in the cart summary",
+        "aggregatedDurations": {
+          "average": 1.059214623,
+          "median": 1.059214623
+        },
+        "durations": [
+          {
+            "duration": 1.059214623,
+            "location": "Scenario.feature:42"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^error message should be displayed$",
+    "steps": [
+      {
+        "name": "error message should be displayed",
+        "aggregatedDurations": {
+          "average": 0.773189657,
+          "median": 0.773189657
+        },
+        "durations": [
+          {
+            "duration": 0.773189657,
+            "location": "Scenario.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on Sort by price$",
+    "steps": [
+      {
+        "name": "user clicks on Sort by price",
+        "aggregatedDurations": {
+          "average": 5.456044626,
+          "median": 5.456044626
+        },
+        "durations": [
+          {
+            "duration": 5.456044626,
+            "location": "Scenario.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on Summer Dresses$",
+    "steps": [
+      {
+        "name": "user clicks on Summer Dresses",
+        "aggregatedDurations": {
+          "average": 3.083552386,
+          "median": 3.083552386
+        },
+        "durations": [
+          {
+            "duration": 3.059878911,
+            "location": "Scenario.feature:26"
+          },
+          {
+            "duration": 3.107225862,
+            "location": "Scenario.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^items should be arranged accordingly$",
+    "steps": [
+      {
+        "name": "items should be arranged accordingly",
+        "aggregatedDurations": {
+          "average": 0.753065421,
+          "median": 0.753065421
+        },
+        "durations": [
+          {
+            "duration": 0.753065421,
+            "location": "Scenario.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user select a dress$",
+    "steps": [
+      {
+        "name": "user select a dress",
+        "aggregatedDurations": {
+          "average": 2.526147309,
+          "median": 2.526147309
+        },
+        "durations": [
+          {
+            "duration": 2.526147309,
+            "location": "Scenario.feature:39"
+          }
+        ]
+      }
+    ]
+  }
+]
