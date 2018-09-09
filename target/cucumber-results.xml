@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="87.869404">
-<testcase classname="Test various functionalities of an application" name="Successful registration" time="23.343725">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="88.351942">
+<testcase classname="Test various functionalities of an application" name="Successful registration" time="26.256336">
 <system-out><![CDATA[Given user is on Home page..................................................passed
 When user navigates to sign in page.........................................passed
 And user clicks enters valid email..........................................passed
@@ -9,7 +9,7 @@ And user clicks on register.................................................pass
 Then user should be able to register successfully...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test various functionalities of an application" name="Error displayed for invalid email address" time="12.332885">
+<testcase classname="Test various functionalities of an application" name="Error displayed for invalid email address" time="12.894121">
 <system-out><![CDATA[Given user is on Home page..................................................passed
 When user navigates to sign in page.........................................passed
 And user enters invalid email...............................................passed
@@ -17,14 +17,14 @@ And user click on create an account.........................................pass
 Then error message should be displayed......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test various functionalities of an application" name="Validate Summer Dresses Megamenu" time="13.521298">
+<testcase classname="Test various functionalities of an application" name="Validate Summer Dresses Megamenu" time="13.822219">
 <system-out><![CDATA[Given user is on Home page..................................................passed
 When user clicks on Dresses.................................................passed
 And user clicks on Summer Dresses...........................................passed
 Then user navigates Summer Dresses page.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test various functionalities of an application" name="Sort summer dresses by price" time="18.664818">
+<testcase classname="Test various functionalities of an application" name="Sort summer dresses by price" time="19.007524">
 <system-out><![CDATA[Given user is on Home page..................................................passed
 When user clicks on Dresses.................................................passed
 And user clicks on Summer Dresses...........................................passed
@@ -32,7 +32,7 @@ And user clicks on Sort by price............................................pass
 Then items should be arranged accordingly...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test various functionalities of an application" name="Validate product details in the cart summary" time="20.006678">
+<testcase classname="Test various functionalities of an application" name="Validate product details in the cart summary" time="16.371742">
 <system-out><![CDATA[Given user is on Home page..................................................passed
 When user clicks on Dresses.................................................passed
 When user select a dress....................................................passed
