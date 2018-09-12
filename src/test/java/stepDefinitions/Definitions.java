@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -19,7 +20,6 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import drivers.Config;
 import drivers.Driver;
-import junit.framework.Assert;
 import library.Operations;
 import objectRepository.Cart;
 import objectRepository.Home;
@@ -102,7 +102,7 @@ public void user_give_all_required_registration_details() throws Throwable {
 	}
 	Operations.EnterText(driver, Registration.FirstName, Data.getCellValue("FirstName", Scenario_Name));
 	Operations.EnterText(driver, Registration.LastName, Data.getCellValue("LastName", Scenario_Name));		
-	driver.findElement(Registration.password).sendKeys("password");
+	Operations.EnterText(driver, Registration.password, Data.getCellValue("Password", Scenario_Name));
 	
 	if(Data.getCellValue("NewsLetter", Scenario_Name).equalsIgnoreCase("yes")){
 		Operations.Click(driver,Registration.NewsLetter );

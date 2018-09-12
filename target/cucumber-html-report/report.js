@@ -22,7 +22,7 @@ formatter.match({
   "location": "Definitions.natigate_to_home_page()"
 });
 formatter.result({
-  "duration": 14093053994,
+  "duration": 15982019163,
   "status": "passed"
 });
 formatter.scenario({
@@ -73,42 +73,42 @@ formatter.match({
   "location": "Definitions.user_navigate_to_signin()"
 });
 formatter.result({
-  "duration": 1823168673,
+  "duration": 2284964385,
   "status": "passed"
 });
 formatter.match({
   "location": "Definitions.user_enter_valid_email()"
 });
 formatter.result({
-  "duration": 436338921,
+  "duration": 667362506,
   "status": "passed"
 });
 formatter.match({
   "location": "Definitions.user_click_on_create_an_account()"
 });
 formatter.result({
-  "duration": 108508824,
+  "duration": 152840532,
   "status": "passed"
 });
 formatter.match({
   "location": "Definitions.user_give_all_required_registration_details()"
 });
 formatter.result({
-  "duration": 7194558992,
+  "duration": 9804446570,
   "status": "passed"
 });
 formatter.match({
   "location": "Definitions.user_clicks_on_register()"
 });
 formatter.result({
-  "duration": 1845769309,
+  "duration": 1834644614,
   "status": "passed"
 });
 formatter.match({
   "location": "Definitions.user_should_be_able_to_register_successfully()"
 });
 formatter.result({
-  "duration": 754936833,
+  "duration": 1019248402,
   "status": "passed"
 });
 formatter.background({
@@ -127,7 +127,7 @@ formatter.match({
   "location": "Definitions.natigate_to_home_page()"
 });
 formatter.result({
-  "duration": 9994248345,
+  "duration": 9281423984,
   "status": "passed"
 });
 formatter.scenario({
@@ -168,28 +168,28 @@ formatter.match({
   "location": "Definitions.user_navigate_to_signin()"
 });
 formatter.result({
-  "duration": 1758809094,
+  "duration": 2880271258,
   "status": "passed"
 });
 formatter.match({
   "location": "Definitions.user_enters_invalid_email()"
 });
 formatter.result({
-  "duration": 242895819,
+  "duration": 345716850,
   "status": "passed"
 });
 formatter.match({
   "location": "Definitions.user_click_on_create_an_account()"
 });
 formatter.result({
-  "duration": 127427647,
+  "duration": 156038240,
   "status": "passed"
 });
 formatter.match({
   "location": "Definitions.error_message_should_be_displayed()"
 });
 formatter.result({
-  "duration": 770740057,
+  "duration": 834173625,
   "status": "passed"
 });
 formatter.background({
@@ -208,7 +208,7 @@ formatter.match({
   "location": "Definitions.natigate_to_home_page()"
 });
 formatter.result({
-  "duration": 9891301869,
+  "duration": 10728583679,
   "status": "passed"
 });
 formatter.scenario({
@@ -244,21 +244,21 @@ formatter.match({
   "location": "Definitions.user_clicks_on_Dresses()"
 });
 formatter.result({
-  "duration": 66295996,
+  "duration": 142097305,
   "status": "passed"
 });
 formatter.match({
   "location": "Definitions.user_clicks_on_Summer_Dresses()"
 });
 formatter.result({
-  "duration": 3134329405,
+  "duration": 3813365143,
   "status": "passed"
 });
 formatter.match({
   "location": "Definitions.user_navigates_Summer_Dresses_page()"
 });
 formatter.result({
-  "duration": 730291443,
+  "duration": 970483921,
   "status": "passed"
 });
 formatter.background({
@@ -277,7 +277,7 @@ formatter.match({
   "location": "Definitions.natigate_to_home_page()"
 });
 formatter.result({
-  "duration": 9807058679,
+  "duration": 10675401253,
   "status": "passed"
 });
 formatter.scenario({
@@ -318,28 +318,28 @@ formatter.match({
   "location": "Definitions.user_clicks_on_Dresses()"
 });
 formatter.result({
-  "duration": 39936000,
+  "duration": 83087385,
   "status": "passed"
 });
 formatter.match({
   "location": "Definitions.user_clicks_on_Summer_Dresses()"
 });
 formatter.result({
-  "duration": 3130396703,
+  "duration": 3328019405,
   "status": "passed"
 });
 formatter.match({
   "location": "Definitions.user_clicks_on_Sort_by_price()"
 });
 formatter.result({
-  "duration": 5284416418,
+  "duration": 5571544160,
   "status": "passed"
 });
 formatter.match({
   "location": "Definitions.items_should_be_arranged_accordingly()"
 });
 formatter.result({
-  "duration": 745716051,
+  "duration": 852030727,
   "status": "passed"
 });
 formatter.background({
@@ -358,7 +358,7 @@ formatter.match({
   "location": "Definitions.natigate_to_home_page()"
 });
 formatter.result({
-  "duration": 10616328611,
+  "duration": 9424127987,
   "status": "passed"
 });
 formatter.scenario({
@@ -404,35 +404,35 @@ formatter.match({
   "location": "Definitions.user_clicks_on_Dresses()"
 });
 formatter.result({
-  "duration": 53911719,
+  "duration": 73116215,
   "status": "passed"
 });
 formatter.match({
   "location": "Definitions.user_select_a_dress()"
 });
 formatter.result({
-  "duration": 2286710922,
+  "duration": 3339751938,
   "status": "passed"
 });
 formatter.match({
   "location": "Definitions.user_change_the_dress_color_to_blue()"
 });
 formatter.result({
-  "duration": 136366747,
+  "duration": 218814362,
   "status": "passed"
 });
 formatter.match({
   "location": "Definitions.user_add_the_product_to_cart()"
 });
 formatter.result({
-  "duration": 2382629055,
+  "duration": 2657095970,
   "status": "passed"
 });
 formatter.match({
   "location": "Definitions.user_should_see_proper_Details_of_the_product_in_the_cart_summary()"
 });
 formatter.result({
-  "duration": 895795082,
+  "duration": 1215133120,
   "status": "passed"
 });
 });

@@ -5,28 +5,28 @@
       {
         "name": "user is on Home page",
         "aggregatedDurations": {
-          "average": 10.880398299,
-          "median": 9.994248345
+          "average": 11.218311213,
+          "median": 10.675401253
         },
         "durations": [
           {
-            "duration": 14.093053994,
+            "duration": 15.982019163,
             "location": "Scenario.feature:5"
           },
           {
-            "duration": 9.994248345,
+            "duration": 9.281423984,
             "location": "Scenario.feature:5"
           },
           {
-            "duration": 9.891301869,
+            "duration": 10.728583679,
             "location": "Scenario.feature:5"
           },
           {
-            "duration": 9.807058679,
+            "duration": 10.675401253,
             "location": "Scenario.feature:5"
           },
           {
-            "duration": 10.616328611,
+            "duration": 9.424127987,
             "location": "Scenario.feature:5"
           }
         ]
@@ -39,12 +39,12 @@
       {
         "name": "user give all required registration details",
         "aggregatedDurations": {
-          "average": 7.194558992,
-          "median": 7.194558992
+          "average": 9.80444657,
+          "median": 9.80444657
         },
         "durations": [
           {
-            "duration": 7.194558992,
+            "duration": 9.80444657,
             "location": "Scenario.feature:12"
           }
         ]
@@ -57,12 +57,12 @@
       {
         "name": "user add the product to cart",
         "aggregatedDurations": {
-          "average": 2.382629055,
-          "median": 2.382629055
+          "average": 2.65709597,
+          "median": 2.65709597
         },
         "durations": [
           {
-            "duration": 2.382629055,
+            "duration": 2.65709597,
             "location": "Scenario.feature:41"
           }
         ]
@@ -75,12 +75,12 @@
       {
         "name": "user should be able to register successfully",
         "aggregatedDurations": {
-          "average": 0.754936833,
-          "median": 0.754936833
+          "average": 1.019248402,
+          "median": 1.019248402
         },
         "durations": [
           {
-            "duration": 0.754936833,
+            "duration": 1.019248402,
             "location": "Scenario.feature:14"
           }
         ]
@@ -93,12 +93,12 @@
       {
         "name": "user navigates Summer Dresses page",
         "aggregatedDurations": {
-          "average": 0.730291443,
-          "median": 0.730291443
+          "average": 0.970483921,
+          "median": 0.970483921
         },
         "durations": [
           {
-            "duration": 0.730291443,
+            "duration": 0.970483921,
             "location": "Scenario.feature:27"
           }
         ]
@@ -111,12 +111,12 @@
       {
         "name": "user change the dress color to blue",
         "aggregatedDurations": {
-          "average": 0.136366747,
-          "median": 0.136366747
+          "average": 0.218814362,
+          "median": 0.218814362
         },
         "durations": [
           {
-            "duration": 0.136366747,
+            "duration": 0.218814362,
             "location": "Scenario.feature:40"
           }
         ]
@@ -129,16 +129,16 @@
       {
         "name": "user click on create an account",
         "aggregatedDurations": {
-          "average": 0.117968235,
-          "median": 0.117968235
+          "average": 0.154439386,
+          "median": 0.154439386
         },
         "durations": [
           {
-            "duration": 0.108508824,
+            "duration": 0.152840532,
             "location": "Scenario.feature:11"
           },
           {
-            "duration": 0.127427647,
+            "duration": 0.15603824,
             "location": "Scenario.feature:20"
           }
         ]
@@ -151,12 +151,12 @@
       {
         "name": "user clicks on register",
         "aggregatedDurations": {
-          "average": 1.845769309,
-          "median": 1.845769309
+          "average": 1.834644614,
+          "median": 1.834644614
         },
         "durations": [
           {
-            "duration": 1.845769309,
+            "duration": 1.834644614,
             "location": "Scenario.feature:13"
           }
         ]
@@ -169,16 +169,16 @@
       {
         "name": "user navigates to sign in page",
         "aggregatedDurations": {
-          "average": 1.790988883,
-          "median": 1.790988883
+          "average": 2.582617821,
+          "median": 2.582617821
         },
         "durations": [
           {
-            "duration": 1.823168673,
+            "duration": 2.284964385,
             "location": "Scenario.feature:9"
           },
           {
-            "duration": 1.758809094,
+            "duration": 2.880271258,
             "location": "Scenario.feature:18"
           }
         ]
@@ -191,12 +191,12 @@
       {
         "name": "user enters invalid email",
         "aggregatedDurations": {
-          "average": 0.242895819,
-          "median": 0.242895819
+          "average": 0.34571685,
+          "median": 0.34571685
         },
         "durations": [
           {
-            "duration": 0.242895819,
+            "duration": 0.34571685,
             "location": "Scenario.feature:19"
           }
         ]
@@ -209,12 +209,12 @@
       {
         "name": "user clicks enters valid email",
         "aggregatedDurations": {
-          "average": 0.436338921,
-          "median": 0.436338921
+          "average": 0.667362506,
+          "median": 0.667362506
         },
         "durations": [
           {
-            "duration": 0.436338921,
+            "duration": 0.667362506,
             "location": "Scenario.feature:10"
           }
         ]
@@ -227,20 +227,20 @@
       {
         "name": "user clicks on Dresses",
         "aggregatedDurations": {
-          "average": 0.053381238,
-          "median": 0.053911719
+          "average": 0.099433635,
+          "median": 0.083087385
         },
         "durations": [
           {
-            "duration": 0.066295996,
+            "duration": 0.142097305,
             "location": "Scenario.feature:25"
           },
           {
-            "duration": 0.039936,
+            "duration": 0.083087385,
             "location": "Scenario.feature:31"
           },
           {
-            "duration": 0.053911719,
+            "duration": 0.073116215,
             "location": "Scenario.feature:38"
           }
         ]
@@ -253,12 +253,12 @@
       {
         "name": "user should see proper Details of the product in the cart summary",
         "aggregatedDurations": {
-          "average": 0.895795082,
-          "median": 0.895795082
+          "average": 1.21513312,
+          "median": 1.21513312
         },
         "durations": [
           {
-            "duration": 0.895795082,
+            "duration": 1.21513312,
             "location": "Scenario.feature:42"
           }
         ]
@@ -271,12 +271,12 @@
       {
         "name": "error message should be displayed",
         "aggregatedDurations": {
-          "average": 0.770740057,
-          "median": 0.770740057
+          "average": 0.834173625,
+          "median": 0.834173625
         },
         "durations": [
           {
-            "duration": 0.770740057,
+            "duration": 0.834173625,
             "location": "Scenario.feature:21"
           }
         ]
@@ -289,12 +289,12 @@
       {
         "name": "user clicks on Sort by price",
         "aggregatedDurations": {
-          "average": 5.284416418,
-          "median": 5.284416418
+          "average": 5.57154416,
+          "median": 5.57154416
         },
         "durations": [
           {
-            "duration": 5.284416418,
+            "duration": 5.57154416,
             "location": "Scenario.feature:33"
           }
         ]
@@ -307,16 +307,16 @@
       {
         "name": "user clicks on Summer Dresses",
         "aggregatedDurations": {
-          "average": 3.132363054,
-          "median": 3.132363054
+          "average": 3.570692274,
+          "median": 3.570692274
         },
         "durations": [
           {
-            "duration": 3.134329405,
+            "duration": 3.813365143,
             "location": "Scenario.feature:26"
           },
           {
-            "duration": 3.130396703,
+            "duration": 3.328019405,
             "location": "Scenario.feature:32"
           }
         ]
@@ -329,12 +329,12 @@
       {
         "name": "items should be arranged accordingly",
         "aggregatedDurations": {
-          "average": 0.745716051,
-          "median": 0.745716051
+          "average": 0.852030727,
+          "median": 0.852030727
         },
         "durations": [
           {
-            "duration": 0.745716051,
+            "duration": 0.852030727,
             "location": "Scenario.feature:34"
           }
         ]
@@ -347,12 +347,12 @@
       {
         "name": "user select a dress",
         "aggregatedDurations": {
-          "average": 2.286710922,
-          "median": 2.286710922
+          "average": 3.339751938,
+          "median": 3.339751938
         },
         "durations": [
           {
-            "duration": 2.286710922,
+            "duration": 3.339751938,
             "location": "Scenario.feature:39"
           }
         ]
